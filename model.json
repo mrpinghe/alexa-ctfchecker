@@ -1,0 +1,98 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "GetEverSec",
+      "samples": [
+        "tell me about eversec",
+        "eversec info",
+        "eversec information",
+        "information about eversec",
+        "give me eversec info",
+        "eversec"
+      ],
+      "slots": []
+    },
+    {
+      "name": "GetTopTen",
+      "samples": [
+        "current top ten",
+        "top ten teams",
+        "current top ten teams",
+        "top teams",
+        "current top teams",
+        "top ten",
+        "top ten of {date}",
+        "top ten teams of {date}",
+        "get me top ten teams",
+        "get me top ten teams of {date}",
+        "show me top ten teams",
+        "show me top ten teams of {date}",
+        "{date} top ten teams",
+        "{date} top ten",
+        "get me {date} top ten",
+        "get me {date} top ten teams",
+        "top ten of {fourdigit}",
+        "top ten teams of {fourdigit} ",
+        "get me top ten teams of {fourdigit} ",
+        "show me top ten teams of {fourdigit} ",
+        "{fourdigit} top ten teams",
+        "{fourdigit} top ten",
+        "get me {fourdigit} top ten",
+        "get me {fourdigit} top ten teams",
+        "who are current top ten teams",
+        "who current top ten teams are",
+        "who are top ten",
+        "who top ten are",
+        "who are {date} top ten",
+        "who {date} top ten are",
+        "who are {fourdigit} top ten",
+        "who {fourdigit} top ten are",
+        "who are top ten of {date}",
+        "who are top ten of {fourdigit} ",
+        "who were top ten in {fourdigit}",
+        "who were top ten of {date}",
+        "who were top ten in {date}",
+        "who were top ten of {fourdigit}",
+        "who are top ten in {date}",
+        "who are top ten in {fourdigit} "
+      ],
+      "slots": [
+        {
+          "name": "date",
+          "type": "AMAZON.DATE",
+          "samples": []
+        },
+        {
+          "name": "fourdigit",
+          "type": "AMAZON.FOUR_DIGIT_NUMBER",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "GetUpcomingCTF",
+      "samples": [
+        "upcoming ctf",
+        "upcoming events",
+        "next ctf",
+        "next events",
+        "upcoming ctfs",
+        "next ctfs",
+        "what's next"
+      ],
+      "slots": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "alexa-ctfchecker-skill",
+  "version": "0.1.0",
+  "description": "Alexa skill that checks upcoming CTF times, current and past top 10 teams",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "ctf",
+    "capture the flag",
+    "infosec",
+    "security",
+    "hacker",
+    "eversec"
+  ],
+  "author": "hendsun",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "alexa-sdk": "^1.0.6"
+  }
+}
