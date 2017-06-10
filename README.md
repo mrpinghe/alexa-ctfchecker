@@ -1,6 +1,11 @@
-# CryptoBot Alexa Skill
+# CTF Checker Alexa Skill
 
-Based off of Amazon's [space geek template](https://github.com/alexa/skill-sample-nodejs-fact)
+This is an Alexa skill that queries CTFTime.org for information about top ten teams of a particular year, or upcoming events
 
-Get a random alternative fact about Bruce Schneier, the well respected cryptographer, from the humorous site [Schneier's Fact](https://www.schneierfacts.com)
-
+```
+Alexa, open CTF Checker
+Alexa, ask CTF Checker for 2015 top ten
+Alexa, ask CTF Checker who are last year's top ten
+Alexa, ask CTF Checker what's next
+Alexa, ask CTF CHecker for upcoming events
+```
